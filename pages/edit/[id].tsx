@@ -42,7 +42,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
         id: String(contact.id)
       },
     })),
-    fallback: false
+    fallback: 'blocking'
   }
 }
 
